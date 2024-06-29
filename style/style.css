@@ -1,0 +1,54 @@
+body {
+  background-color: #272b30;
+  font-family: Comfortaa, cursive;
+  font-size: 0.875em;
+}
+header img {
+  max-height: 30vh;
+  object-fit: cover;
+}
+nav {
+  border-radius: 25px;
+  background-color: #3a497b;
+  z-index: 3;
+}
+.text {
+  height: 100px;
+  opacity: 0.5;
+}
+.logos {
+  background-color: #3f4140;
+}
+.free {
+  height: fit-content;
+  background-color: #0dcaf0;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.fr {
+  background-color: #0dcaf0;
+}
+.content img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.col-lg-3:hover img,
+.col-lg-3:hover .free {
+  opacity: 1;
+}
+.col-lg-3 {
+  transition: all 0.5s;
+}
+.col-lg-3:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
+.nav-link {
+  transition: all 0.5s;
+}
+.nav-link:hover {
+  color: #0099cc !important;
+}
